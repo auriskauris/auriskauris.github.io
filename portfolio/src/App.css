@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FFE5EB;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ED3838;
+  
+}
+
+h2, body {
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ED3838;
+}
+
+a:before {
+  color: #FFE5EB;
+}
+
+Button {
+  margin: 2em;
+  border: 2px solid #FFE5EB;
+  color: black;
+  background-color: #FFE5EB;
+  width: 7em;
+  font-family: 'Rubik Mono One', sans-serif;
+  border-radius: 7px;
+}
+
+Button:hover {
+  background-color: #ED3838; 
+  color: white;
+  border: 2px solid #ED3838;
+}
+
+.secondaryButton {
+  margin: 2em;
+  border: 2px solid #ED3838;
+  color: white;
+  background-color: #ED3838;
+  width: 7em;
+  font-family: 'Rubik Mono One', sans-serif;
+  border-radius: 7px;
+}
+
+.secondaryButton:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
